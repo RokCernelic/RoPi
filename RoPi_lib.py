@@ -87,11 +87,6 @@ PORTC.setup(7, PORTC.OUT)
 PORTD.setmode(PORTD.BCM)
 PORTD.setwarnings(False)
 
-'''# for motor speed control enable PWM
-PORTE = PWM(0x40, debug=True)
-f = 50 # Set frequency
-PORTE.frequency(f)'''
-
 # motor5:
 PORTD.setup(23, PORTD.OUT)
 PORTD.setup(24, PORTD.OUT)
